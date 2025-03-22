@@ -13,7 +13,7 @@ import {
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bd-cover bg-no-repeat bg-center">
           <ToastContainer />
