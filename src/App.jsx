@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router";
+import { Routes } from "react-router";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import {
@@ -13,7 +13,7 @@ import {
 
 const App = () => {
   return (
-    <BrowserRouter basename="/">
+    <Routes basename="/">
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bd-cover bg-no-repeat bg-center">
           <ToastContainer />
@@ -30,8 +30,9 @@ const App = () => {
           <StarsCanvas />
         </div>
       </div>
-    </BrowserRouter>
+    </Routes>
   );
 };
 
 export default App;
+
