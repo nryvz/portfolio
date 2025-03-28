@@ -23,7 +23,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import cg from "./cg.jpg";
+import cg from "./cg.svg";
 import note_al from "./note_al.jpg";
 import weather from "./weather1.jpg";
 
